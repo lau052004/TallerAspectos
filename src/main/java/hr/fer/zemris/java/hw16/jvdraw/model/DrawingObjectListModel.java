@@ -48,6 +48,11 @@ public class DrawingObjectListModel extends AbstractListModel<GeometricalObject>
 	 */
 	@Override
 	public GeometricalObject getElementAt(int index) {
+		
+		//TODO: AQUI DEBE SER (Problema, retorna todos los que lleva)
+		//System.out.println("Pruebaa:");
+		//System.out.println(drawingModel.getObject(index));
+		
 		return drawingModel.getObject(index);
 	}
 

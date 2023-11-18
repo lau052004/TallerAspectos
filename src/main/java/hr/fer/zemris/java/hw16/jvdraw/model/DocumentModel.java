@@ -116,6 +116,16 @@ public class DocumentModel implements DrawingModel, GeometricalObjectListener {
 	@Override
 	public void add(GeometricalObject object) {
 		Objects.requireNonNull(object, "Cannot add null object");
+		
+		//TODO: Por aca depronto es
+		//System.out.println("Se creo un nuevo objeto");
+		//System.out.println("No se que es: "+object.getStartPoint());
+		
+		//System.out.println("Figura: " + object.toString());
+		//System.out.println("Color: " + object.getFgColor());
+		//System.out.println("Coordenada Inicio: " + object.getStartPoint());
+		//System.out.println("Coordenada Final: " + object.getEndPoint());
+		
 
 		objects.add(object);
 		object.addGeometricalObjectListener(this);

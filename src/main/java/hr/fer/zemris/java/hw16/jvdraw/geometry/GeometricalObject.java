@@ -84,6 +84,8 @@ public abstract class GeometricalObject implements Tool {
 	 * Instantiates a new geometrical object.
 	 */
 	public GeometricalObject() {
+		//TODO: Aqui se crea el objeto. Eliminar esto.
+		//System.out.println("Objeto creado.");
 	}
 
 	/**
